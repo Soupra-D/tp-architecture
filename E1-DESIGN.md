@@ -5,9 +5,9 @@ Ce document décrit comment nous avons/allons implémenter la solution ultra-sim
 
 ========
 
-UML : 
+Schéma de données (MCD) : 
 
-![UML](https://i.gyazo.com/67026a488eba17105bd4da0f845a4444.png)
+![UML](https://cdn.discordapp.com/attachments/763035147363680298/784472095505645628/unknown.png)
 
 ========
 
