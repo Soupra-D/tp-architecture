@@ -26,6 +26,7 @@ le fichier .php questionne la base de données MySQL ou l'API
 Connexion :
 - L'utilisateur entre son pseudo, si l'utilisateur existe ça le connecte, sinon ça lui créé un compte
 - Mot de passe facultatif ? Connexion juste par nom d'utilisateur suffisante ?
+
 -> Prévoir un système de session (cookie suffisant ?)
 
 Page principale : 
@@ -38,4 +39,5 @@ Page reservations
 Questions pour le professeur:
 
 -> Besoin de prévoir un système qui tous les X temps (ici 24h) raffraichis la liste des vols ?
+
 -> Besoin de passer par une API ou on peut directement questionner la base de données ?
