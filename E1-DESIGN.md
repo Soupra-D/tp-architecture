@@ -11,9 +11,9 @@ Schéma de données (MCD) :
 
 ========
 
-MODEL :
+Modèle d'architecture :
 
-![MODEL](https://media.discordapp.net/attachments/763035147363680298/784290986557046804/Illustration-of-JavaScript-and-PHP-interaction-through-Ajax.png)
+![MODEL](https://cdn.discordapp.com/attachments/763035147363680298/784479790647607356/unknown.png)
 
 le document .html utilise AJAX pour raffrachir ses composants sans avoir besoin de recharger la page
 
