@@ -11,9 +11,9 @@ Schéma de données (MCD) :
 
 ========
 
-MODEL :
+Schéma d'architecture :
 
-![MODEL](https://media.discordapp.net/attachments/763035147363680298/784290986557046804/Illustration-of-JavaScript-and-PHP-interaction-through-Ajax.png)
+![MODEL](https://cdn.discordapp.com/attachments/763035147363680298/784479790647607356/unknown.png)
 
 le document .html utilise AJAX pour raffrachir ses composants sans avoir besoin de recharger la page
 
@@ -36,8 +36,8 @@ Page reservations
 - Tableau qui liste mes vols réservés avec un bouton "déreservés"
 
 ========
-Questions pour le professeur:
 
--> Besoin de prévoir un système qui tous les X temps (ici 24h) raffraichis la liste des vols ?
+Stack technique :
+[!Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480685099843644/unknown.png)
+[!Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480736685850624/unknown.png)
 
--> Besoin de passer par une API ou on peut directement questionner la base de données ?
