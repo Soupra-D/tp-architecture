@@ -7,13 +7,14 @@ Ce document décrit comment nous avons/allons implémenter la solution ultra-sim
 
 Schéma de données (MCD) : 
 
-![UML](https://cdn.discordapp.com/attachments/763035147363680298/784472095505645628/unknown.png)
+![Schéma de données](https://cdn.discordapp.com/attachments/763035147363680298/784482657135231047/unknown.png)
 
 ========
 
-Modèle d'architecture :
 
-![MODEL](https://cdn.discordapp.com/attachments/763035147363680298/784479790647607356/unknown.png)
+Schéma d'architecture :
+
+![Schéma d'architecture](https://cdn.discordapp.com/attachments/763035147363680298/784479790647607356/unknown.png)
 
 le document .html utilise AJAX pour raffrachir ses composants sans avoir besoin de recharger la page
 
@@ -36,8 +37,8 @@ Page reservations
 - Tableau qui liste mes vols réservés avec un bouton "déreservés"
 
 ========
-Questions pour le professeur:
 
--> Besoin de prévoir un système qui tous les X temps (ici 24h) raffraichis la liste des vols ?
+Stack technique :
+[!Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480685099843644/unknown.png)
+[!Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480736685850624/unknown.png)
 
--> Besoin de passer par une API ou on peut directement questionner la base de données ?
