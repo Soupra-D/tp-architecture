@@ -38,6 +38,8 @@ Page reservations
 ========
 
 Stack technique :
-[!Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480685099843644/unknown.png)
-[!Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480736685850624/unknown.png)
+
+![Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480685099843644/unknown.png)
+
+![Stack technique](https://cdn.discordapp.com/attachments/763035147363680298/784480736685850624/unknown.png)
 
