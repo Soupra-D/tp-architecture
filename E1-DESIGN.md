@@ -17,9 +17,9 @@ MODEL :
 
 le document .html utilise AJAX pour raffrachir ses composants sans avoir besoin de recharger la page
 
-le document .html lance des actions à un fichier .php
+le document .html lance des actions à un code php
 
-le fichier .php questionne la base de données MySQL ou l'API
+Le php questionne la base de données MySQL ou l'API
 
 ========
 
