@@ -16,7 +16,9 @@ MODEL :
 ![MODEL](https://media.discordapp.net/attachments/763035147363680298/784290986557046804/Illustration-of-JavaScript-and-PHP-interaction-through-Ajax.png)
 
 le document .html utilise AJAX pour raffrachir ses composants sans avoir besoin de recharger la page
+
 le document .html lance des actions à un fichier .php
+
 le fichier .php questionne la base de données MySQL ou l'API
 
 ========
