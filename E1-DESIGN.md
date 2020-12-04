@@ -7,13 +7,13 @@ Ce document décrit comment nous avons/allons implémenter la solution ultra-sim
 
 Schéma de données (MCD) : 
 
-![UML](https://cdn.discordapp.com/attachments/763035147363680298/784472095505645628/unknown.png)
+![Schéma de données](https://cdn.discordapp.com/attachments/763035147363680298/784482657135231047/unknown.png)
 
 ========
 
 Schéma d'architecture :
 
-![MODEL](https://cdn.discordapp.com/attachments/763035147363680298/784479790647607356/unknown.png)
+![Schéma d'architecture](https://cdn.discordapp.com/attachments/763035147363680298/784479790647607356/unknown.png)
 
 le document .html utilise AJAX pour raffrachir ses composants sans avoir besoin de recharger la page
 
