@@ -3,20 +3,20 @@ package fr.esiea.model;
 
 public class Aeroport {
 
-    private String codeAeroport;
-    private String nomAeroport;
+    private String code;
+    private String nom;
 
-    public Aeroport(String codeA, String nomA){
-        this.nomAeroport = nomA;
-        this.codeAeroport = codeA;
+    public Aeroport(String code, String nom){
+        this.nom = nom;
+        this.code = code;
     }
 
-    public String getAeroportNom(){
-        return this.nomAeroport;
+    public String getNom(){
+        return this.nom;
     }
 
-    public String getAeroportCode(){
-        return this.codeAeroport;
+    public String getCode(){
+        return this.code;
     }
 
 }

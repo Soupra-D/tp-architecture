@@ -1,60 +1,66 @@
 package fr.esiea.model;
 
-import sun.jvm.hotspot.ui.EditableAtEndDocument;
-
 import java.util.Date;
 import java.util.Random;
 
 public class Vol {
-    private int id;
+
+
     private float prix;
-    private boolean disponibilite;
-    private int idVol;
-    private Date dateAchat;
+    private int disponibilite;
+    private int depart;
+    private int arrive;
+    private String date;
 
-    public Vol(float p, boolean d){
-        Random rand = new Random();
-        this.id = Integer.parseInt(String.format("%04d%n", rand.nextInt(10000)));
+    public Vol(int depart, int arrive, int disponibilite, String date, float prix){
+        this.depart = depart;
+        this.arrive = arrive;
+        this.disponibilite = disponibilite;
+        this.date = date;
+        this.prix = prix;
     }
 
-    public int getId(){
-        return this.id;
-    }
     public float getPrix() {
         return prix;
     }
 
-    public boolean isDisponibilite() {
+    public int isDisponibilite() {
         return disponibilite;
     }
 
-    public int getIdVol() {
-        return idVol;
-    }
-
-    public Date getDateAchat() {
-        return dateAchat;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public String getDate() {
+        return date;
     }
 
     public void setPrix(float prix) {
         this.prix = prix;
     }
 
-    public void setDisponibilite(boolean disponibilite) {
+    public void setDisponibilite(int disponibilite) {
         this.disponibilite = disponibilite;
     }
 
-    public void setIdVol(int idVol) {
-        this.idVol = idVol;
+    public void setDate(String date) {
+        this.date = date;
     }
 
-    public void setDateAchat(Date dateAchat) {
-        this.dateAchat = dateAchat;
+    public int getDepart() {
+        return depart;
     }
 
+    public void setDepart(int depart) {
+        this.depart = depart;
+    }
 
+    public int getDisponibilite() {
+        return disponibilite;
+    }
+
+    public int getArrive() {
+        return arrive;
+    }
+
+    public void setArrive(int arrive) {
+        this.arrive = arrive;
+    }
 }

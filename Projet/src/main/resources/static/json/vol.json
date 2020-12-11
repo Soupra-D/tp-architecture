@@ -1,0 +1,30 @@
+[
+  {
+    "depart": 1,
+    "arrive": 2,
+    "disponibilite" : 10,
+    "date" : "10/02/2021 20:15",
+    "prix" : 50.99
+  },
+  {
+    "depart": 2,
+    "arrive": 1,
+    "disponibilite" : 15,
+    "date" : "11/02/2021 22:15",
+    "prix" : 67.99
+  },
+  {
+    "depart": 0,
+    "arrive": 1,
+    "disponibilite" : 20,
+    "date" : "15/02/2021 21:00",
+    "prix" : 43.99
+  },
+  {
+    "depart": 1,
+    "arrive": 0,
+    "disponibilite" : 12,
+    "date" : "16/02/2021 10:30",
+    "prix" : 37.89
+  }
+]
