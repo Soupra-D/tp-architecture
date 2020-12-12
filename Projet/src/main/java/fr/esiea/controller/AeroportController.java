@@ -4,6 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
+import com.sun.tools.javac.file.RelativePath;
 import fr.esiea.message.Response;
 import fr.esiea.model.Aeroport;
 import fr.esiea.model.Customer;
@@ -27,7 +28,7 @@ public class AeroportController {
 		Gson gson = new Gson();
 		JsonParser jsonParser = new JsonParser();
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("Projet/src/main/resources/static/json/aeroport.json"));
+			BufferedReader br = new BufferedReader(new FileReader("resources/aeroport.json"));
 			JsonElement jsonElement = jsonParser.parse(br);
 
 			//Create generic type

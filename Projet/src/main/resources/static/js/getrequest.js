@@ -1,9 +1,9 @@
 $( document ).ready(function() {
 
-	loadAirport();
 
-	loadVol();
-	loadCustomerDropdown();
+
+
+
 	// GET REQUEST
 	$("#getAllCustomerId").click(function(event){
 		event.preventDefault();
@@ -11,6 +11,9 @@ $( document ).ready(function() {
 	});
 	var airport = null;
 	var vol = null;
+
+	loadVol();
+	loadCustomerDropdown();
 
 
 	
@@ -66,6 +69,7 @@ $( document ).ready(function() {
 	}
 
 	function loadVol(){
+		loadAirport();
 		$.ajax({
 			type: "GET",
 			url: window.location + "api/vol/all",
@@ -86,34 +90,13 @@ $( document ).ready(function() {
 		});
 	}
 
-	function loadTicket(){
-		$.ajax({
-			type: "GET",
-			url: window.location + "api/vol/all",
-			success: function (json) {
-				$.each(json.data, function (i, value) {
-					vol = json.data;
-					$('<tr scope="col"></tr>').append(
-						$('<td class="text-center"></td>').text(airport[value.depart].code + " (" + airport[value.depart].nom + ")"),
-						$('<td class="text-center"></td>').text(airport[value.arrive].code + " (" + airport[value.arrive].nom + ")"),
-						$('<td class="text-center"></td>').text(value.date),
-						$('<td class="text-center"></td>').text(value.prix + "€"),
-						$('<td class="text-center"></td>').text(value.disponibilite),
-						$('<td></td>').append($('<select name="customerDropdown" class="form-control"></select>').attr("form", i)),
-						$('<td></td>').append($('<button class="btn btn-primary" type="submit"></button>').text('Reserver').attr({ form:i,  name:"ticketForm" })))
-						.appendTo('#volTable');
-				});
-			}
-		});
-	}
-
 	$("#customerForm").submit(function(event) {
 		// Prevent the form from submitting via the browser.
 		setTimeout(function () {
 			console.log('test');
 			$.each(document.getElementsByName("customerDropdown"), function () {
 				$(this).empty()
-				$("#customerToDisplay").empty()
+				$("#ticketTable").empty()
 			});
 
 			event.preventDefault();
@@ -135,8 +118,6 @@ $( document ).ready(function() {
 
 
 	function loadCustomerTicket(customer){
-		alert(customer);
-
 		$.ajax({
 			type: "POST",
 			url: window.location + "api/ticket/bycustomer",
