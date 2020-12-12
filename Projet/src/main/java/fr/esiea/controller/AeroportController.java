@@ -27,7 +27,7 @@ public class AeroportController {
 		Gson gson = new Gson();
 		JsonParser jsonParser = new JsonParser();
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("src/main/resources/static/json/aeroport.json"));
+			BufferedReader br = new BufferedReader(new FileReader("Projet/src/main/resources/static/json/aeroport.json"));
 			JsonElement jsonElement = jsonParser.parse(br);
 
 			//Create generic type

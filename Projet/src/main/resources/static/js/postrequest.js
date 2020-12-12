@@ -24,7 +24,7 @@ $( document ).ready(function() {
 			dataType : 'json',
 			success : function(result) {
 				if(result.status == "Done"){
-					$("#postResultDiv").html("<p style='background-color:#7FA7B0; color:white; padding:20px 20px 20px 20px'>" + 
+					$("#postResultDiv").html("<p style='background-color:#7FA7B0; color:#ffffff; padding:20px 20px 20px 20px'>" +
 												"Votre email a bien été enregistré <br>" +
 												"Votre email = " +
 												result.data.email);
