@@ -45,6 +45,42 @@ Votre deisgn devra se trouver dans le fichier ```projet/E1-DESIGN.md```
 Implémentez votre solution, votre code devra se trouver dans le dossier ```project/code```
 Lorsque vous avez terminé, venez me voir pour la suite...
 
-## Etpae 3
+## Etape 3
 
 Surprise !
+
+# Réalisation 
+
+Le projet est une "single page application", on a donc une page unique qui permet d'effectuer toute les actions.
+La page est réalisé avec Ajax, elle apelle une API Rest réalisé avec Springboot.
+L'application garte tout en mémoire, il n'y a pas de base de donnée.
+Rien n'est sauvegardé en cache du navigateur. L'utilisateur peux fermer son navigateur, sa réservation sera toujours présent.
+
+La commande d'un billet se fait en 3 étape.
+
+## Etape 1 :
+
+Le clients s'identifie via son adresse email.
+Un fois inscrit un message valide son inscription.
+![Image 1](https://puu.sh/GX8On.png)
+
+## Etape 2 :
+
+Le client peut voir la liste des billets disponibles.
+Il peut effectuer un achat. Pour cela il selectionne son email pui clic sur "Réserver".
+
+![Image 2](https://puu.sh/GX8Si.png)
+
+## Etape 3 :
+
+Le clients peut visualier les billets qu'il a acheté. 
+Il choisi son email dans le menu déroulant.
+
+
+![Image 3](https://puu.sh/GX8Tp.png)
+
+## Fix et Ajouts 
+
+Certains éléments sont encore à modifier.
+  - Changer l'affichage des email et passer d'un menu déroulant à une saisie de text par exemple.
+  - Décrémenter le nombre de place disponible apres une réservation d'un client.
