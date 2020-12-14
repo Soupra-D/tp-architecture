@@ -93,10 +93,9 @@ $( document ).ready(function() {
 	$("#customerForm").submit(function(event) {
 		// Prevent the form from submitting via the browser.
 		setTimeout(function () {
-			console.log('test');
+
 			$.each(document.getElementsByName("customerDropdown"), function () {
-				$(this).empty()
-				$("#ticketTable").empty()
+				$(this).empty();
 			});
 
 			event.preventDefault();
@@ -118,6 +117,8 @@ $( document ).ready(function() {
 
 
 	function loadCustomerTicket(customer){
+		console.log('hello');
+		$('#ticketTable').empty();
 		$.ajax({
 			type: "POST",
 			url: window.location + "api/ticket/bycustomer",

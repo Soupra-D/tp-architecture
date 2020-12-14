@@ -49,7 +49,6 @@ $( document ).ready(function() {
     }
 
 	function ticketPost(customer, vol) {
-    	alert(vol);
 
 		// PREPARE FORM DATA
 		var formData = {
