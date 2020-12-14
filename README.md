@@ -69,15 +69,17 @@ Un fois inscrit un message valide son inscription.
 Le client peut voir la liste des billets disponibles.
 Il peut effectuer un achat. Pour cela il selectionne son email pui clic sur "Réserver".
 
-Pour faciliter les tests et l'utilisation en démo, nous avons mis des menus déroualant pour la selection des emails.
-Pour une application en production, nous pouvons remplacer ce menus par un boit de saisie.
+_Pour faciliter les tests et l'utilisation en démo, nous avons mis des menus déroualant pour la selection des emails.
+Pour une application en production, nous pouvons remplacer ce menu par une boit de saisie._
 
 ![Image 2](https://puu.sh/GX8Si.png)
 
 ## Etape 3 :
 
 Le clients peut visualier les billets qu'il a acheté. 
-Il choisi son email dans le menu déroulant.
+Il choisi son email dans le menu déroulant. 
+
+_Encore une fois, ce menu peut etre remplacé par une boite de saisie._
 
 
 ![Image 3](https://puu.sh/GX8Tp.png)
