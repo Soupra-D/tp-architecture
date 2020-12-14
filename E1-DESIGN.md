@@ -7,7 +7,7 @@ Ce document décrit comment nous avons/allons implémenter la solution ultra-sim
 
 Schéma de données (MCD) : 
 
-![Schéma de données](https://media.discordapp.net/attachments/763035147363680298/784491555234381834/unknown.png)
+![Schéma de données](https://puu.sh/GXsol.png)
 
 ========
 
