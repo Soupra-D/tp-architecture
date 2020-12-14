@@ -56,9 +56,6 @@ La page est réalisé avec Ajax, elle apelle une API Rest réalisé avec Springb
 L'application garte tout en mémoire, il n'y a pas de base de donnée.
 Rien n'est sauvegardé en cache du navigateur. L'utilisateur peux fermer son navigateur, sa réservation sera toujours présent.
 
-Pour faciliter les tests et l'utilisation en démo, nous avons mis des menus déroualant pour la selection des emails.
-Pour une application en production, nous pouvons remplacer ce menus par un boit de saisie.
-
 La commande d'un billet se fait en 3 étape.
 
 ## Etape 1 :
@@ -71,6 +68,9 @@ Un fois inscrit un message valide son inscription.
 
 Le client peut voir la liste des billets disponibles.
 Il peut effectuer un achat. Pour cela il selectionne son email pui clic sur "Réserver".
+
+Pour faciliter les tests et l'utilisation en démo, nous avons mis des menus déroualant pour la selection des emails.
+Pour une application en production, nous pouvons remplacer ce menus par un boit de saisie.
 
 ![Image 2](https://puu.sh/GX8Si.png)
 
